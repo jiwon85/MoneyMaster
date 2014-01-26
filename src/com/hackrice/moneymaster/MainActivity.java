@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity{
 	
 
 	@Override
@@ -50,10 +50,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		return false;
 	}
 
-	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
