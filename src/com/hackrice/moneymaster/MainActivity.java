@@ -43,7 +43,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 //        if(mTabHost.getCurrentTabTag().equals("ADD"))
 //        	addStuff(mTabHost.getCurrentView());
         
-        //TAB 2
+        //TAB 2: Listviews
         TabSpec List = mTabHost.newTabSpec("List");
         //List.setContent(R.id.tab2);
         List.setIndicator("LIST");
@@ -51,49 +51,10 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         
         
         
-        //TAB 3
+        //TAB 3: Pie graph displaying percentages
         TabSpec Graph = mTabHost.newTabSpec("Graph");
         //Graph.setContent(R.id.tab3);
         Graph.setIndicator("GRAPH");
         mTabHost.addTab(Graph,Graph.class, null);
     }
-//    public void addStuff(View currentView) {
-//    	
-//    	
-//    	Button newB= (Button) findViewById(R.layout.);
-//    	newB.setOnClickListener(new OnClickListener() {
-//
-//			public void onClick(View v) {
-//
-//				Toast pieceToast= Toast.makeText(getApplicationContext(), "It Works lolz", Toast.LENGTH_SHORT);
-//				pieceToast.show();		
-//
-//			}
-//		});
-//    	
-//    	
-//    	
-//    }
-                
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-	@Override
-	public void onClick(View arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-    
-    
-    
-    
-    
-
-    
-    
-    
 }
